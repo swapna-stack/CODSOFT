@@ -1,29 +1,36 @@
+def chatbot():
+    print("Hello! I'm ChatBot. Type 'exit' to end the conversation.")
 
-data = {
-    "hi": "Hi there! I'm a friendly chatBot here to assist you?",
-    "hello": "Hello! How can I help you today?",
-    "what is your name": "I'm just a chatbot, so I don't have a name. You can call me Bhatbot.",
-    "where are you from": "I'm from the digital world, always ready to chat !!",
-    "how are you": "I'm just a ChatBot, but I'm here to assist you.",
-    "do you have any hobbies or interests": "I'm always busy helping users, so my hobby is my work. I like to assist users.",
-    "what did you eat today": "I don't eat, but I can help find delicious recipes and food-related information.",
-    "do you enjoy listening music": "I can't listen to music, but I can suggest you some good music.",
-    "bye": "Bye! Take care and have a great day!"
-}
+    while True:
+        user_input = input("You: ").lower()
 
-def get_response(user_input):
-    user_input = user_input.lower()
-    for pattern, response in data.items():
-        if pattern in user_input:
-            return response
-    return "I'm sorry, I didn't understand that. Can you please rephrase your sentence?"
+        if user_input in ['hi', 'hello', 'hey']:
+            print("Bot: Hello! How can I help you today?")
 
-print("Chatbot: Hi! I'm a simple chatbot. I'm here to assist you!")
+        elif 'your name' in user_input:
+            print("Bot: I'm a simple chatbot built with Python!")
 
-while True:
-    user_input = input("Me: ")
-    if user_input.lower() == 'bye':
-        print("Chatbot:", data["bye"])
-        break
-    response = get_response(user_input)
-    print("Chatbot:", response)
+        elif 'how are you' in user_input:
+            print("Bot: I'm just a bunch of code, but I'm doing great!")
+
+        elif 'help' in user_input:
+            print("Bot: I can respond to greetings, tell you my name, and answer simple questions.")
+
+        elif 'bye' in user_input or user_input == 'exit':
+            print("Bot: Goodbye! Have a great day!")
+            break
+
+        elif 'weather' in user_input:
+            print("Bot: I'm not connected to the internet, so I can't check the weather right now.")
+
+        elif 'joke' in user_input:
+            print("Bot: Why don’t scientists trust atoms? Because they make up everything!")
+
+        else:
+            print("Bot: I'm not sure how to respond to that. Try asking something else.")
+
+# Run the chatbot
+if __name__ == "__main__":
+    chatbot()
+
+
