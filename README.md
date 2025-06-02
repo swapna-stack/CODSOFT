@@ -8,3 +8,4 @@ Developed a simple rule-based chatbot that can respond to user inputs using pred
 🧠 Techniques: If-else logic, keyword-based response matching
 🔧 Tools: Python
 📂 Folder: chatbot-rule_based_chatbot/
+# Internship details
