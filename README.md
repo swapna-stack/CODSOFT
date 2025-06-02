@@ -6,8 +6,11 @@ CodSoft is a technology-driven organization focused on providing quality trainin
 CodSoft offers virtual internships that emphasize practical knowledge, self-paced learning, and task-based progress. Their programs aim to bridge the gap between academic learning and industry requirements, preparing interns for real-world challenges in the tech industry.
 # Internship Details
 💼Organization:Codsoft
+
 📅Duration:june 2025
+
 🎓Internship Domain:Artificial-Intelligence
+
 📍Mode:Remote
 # Project Completed
 ✅ 1. Chatbot with Rule-Based Responses
