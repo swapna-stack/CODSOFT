@@ -34,3 +34,15 @@ Implement an AI agent that plays the classic game of Tic-Tac-Toe against a human
 🔧Tools: python
 
 📂Folder: Tic-Tac-Toe AI
+
+# Project Completed-3
+
+✅3. Image Captioning
+
+Using pre-trained image recognition models like VGG or ResNet to extract features from images, and then use a recurrent neural network (RNN) or transformer-based model to generate captions for those images.
+
+📁Concept: Combine computer vision and natural language processing to build an image captioning AI
+
+🔧Tools:Python
+
+📂Folder: Image captioning
